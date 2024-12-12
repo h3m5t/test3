@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Integrador</title>
+</head>
+
+<body>
+    <!--Códigos relacionados ao cabeçalho, presente em todas as páginas.-->
+    <div class="cabecalho">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/logo.png" width="90" height="60">
+                </a>
+                <h1 class="text-center"><a href="index.html"><b>BIOLOGIA</b></a></h1>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Inicial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="biom">Biomakete</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Conteúdos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="núcleo.html">Núcleo</a></li>
+                                        <li><a class="dropdown-item" href="cromossomos.html">Cromossomos</a></li>
+                                        <li><a class="dropdown-item" href="câncer.html">Câncer</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#ref">Referências</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <hr />
+    </div><br />
+
+
+    <!--Códigos relacionados ao contéudo principal da página inicial.-->
+    <div class="principal">
+        <section class="faixa">
+            <h2>Explorando o Mundo das Células</h2>
+        </section><br />
+        <img id="first" src="imagens/celula.png"><br /><br /><hr />
+
+        <div class="card" style="width: 18rem;">
+            <img src="imagens/núcleo.png" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Núcleo Celular</h2>
+                <p class="card-text">O <u><b>núcleo celular</b></u> é uma estrutura presente em células eucarióticas que abriga o
+                    material genético (DNA). Ele é responsável por controlar as atividades celulares, como crescimento,
+                    divisão e síntese de proteínas, atuando como o "centro de comando" da célula.</p>
+                <a href="núcleo.html" class="btn btn-primary">Mais sobre Núcleo Celular</a>
+            </div>
+        </div><br />
+        <div class="card" style="width: 18rem;">
+            <img src="imagens/cromossomos.png" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Cromossomos</h2>
+                <p class="card-text">Os <u><b>cromossomos </b></u>são estruturas organizadas compostas por DNA e proteínas. Eles 
+                    armazenam e protegem os genes, que são as unidades de hereditariedade. Durante a divisão celular,
+                    os cromossomos garantem que o material genético seja distribuído corretamente entre as
+                    células-filhas.</p>
+                <a href="cromossomos.html" class="btn btn-primary">Mais sobre cromossomos</a>
+            </div>
+        </div><br />
+        <div class="card" style="width: 18rem;">
+            <img src="imagens/câncer.png" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Câncer</h2>
+                <p class="card-text">O <u><b>câncer</b></u> é uma doença caracterizada pelo crescimento descontrolado de células.
+                    Isso pode ocorrer devido a mutações no DNA que afetam os genes reguladores da divisão celular, 
+                    omo oncogenes e genes supressores de tumor. Alterações nos cromossomos, como quebras ou rearranjos,
+                    também podem contribuir para o desenvolvimento do câncer.</p>
+                <a href="câncer.html" class="btn btn-primary">Mais sobre Câncer</a>
+            </div>
+        </div><br /><hr />
+    </div>
+
+    <!--Códigos relacionados ás referências presente somente na página inicial-->
+    <hr />
+    <div class="referências">
+        <H1 id="ref"><b>Referências</b></H1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Núcleo</th>
+                    <th scope="col">Cromossomos</th>
+                    <th scope="col">Câncer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><a href="https://brasilescola.uol.com.br/biologia/nucleo-das-celulas.htm">Brasil Escola - O que é, componentes e funções.</a></td>
+                    <td><a href="https://www.todamateria.com.br/cromossomos/">Toda Materia-Cromossomos, o que são e tipos.</a></td>
+                    <td><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/cancer#:~:text=C%C3%A2ncer%20(ou%20tumor%20maligno)%20%C3%A9,origem%20do%20tumor%20(met%C3%A1stases)">Ministério da Saúde.</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><a href="https://escolakids.uol.com.br/ciencias/nucleo-celular.htm#:~:text=%E2%86%92%20Quais%20s%C3%A3o%20as%20caracter%C3%ADsticas,como%20ocorre%20nas%20c%C3%A9lulas%20adiposas.">Escola Kids - Núcleo Celular.</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-cromossomo.htm">Brasil Escola -Estrutura, partes e conceitos.</a></td>
+                    <td><a href="https://vencerocancer.org.br/o-que-e-cancer/sintomas-da-doenca/">Instituto Vencer o Câncer.</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><a href="https://www.todamateria.com.br/nucleo-celular/">Toda Materia - O que é e sua função.</a></td>
+                    <td><a href="https://www.msdmanuals.com/pt/casa/fundamentos/gen%C3%A9tica/genes-e-cromossomos#Cromossomos_v711495_pt">Manual MSD - Genes e Cromossomos.</a></td>
+                    <td><a href="https://www.paho.org/pt/topicos/cancer">Organização Pan-Américana da Saúde.</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><a href="#"><hr /></a></td>
+                    <td><a href="#"><hr /></a></td>
+                    <td><a href="https://www.saude.pr.gov.br/Pagina/Cancer">Secretaria de Saúde.</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr />
+    <!--Códigos relacionados ao rodapé, presente em todas as páginas.-->
+    <div class="rodapé">
+        <footer class="bg-light text-dark py-5" id="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="imagens/if.png" id="logo" width="65" height="40"
+                                class="d-inline-block align-text-top">
+                            <b>CAMPUS PARNAMIRIM</b>
+                        </a>
+                        <b>
+                            <p><i>Todos os direitos reservados&copy;.</i></p>
+                        </b>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Links úteis</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Contatos</a></li>
+                        </ul>
+                        <hr />
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Redes sociais</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
